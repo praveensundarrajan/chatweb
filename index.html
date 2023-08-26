@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Public Chat</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body background="898.jpg">
+  <div class="chat-container">
+    <div class="chat-box" id="chat-box">
+      <!-- The chat messages will be added here dynamically -->
+    </div>
+    <form id="message-form">
+      <input type="text" id="username" placeholder="Enter your username">
+      <input type="text" id="message" placeholder="Type your message">
+      <button type="submit">Send</button>
+    </form>
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="client.js"></script>
+</body>
+</html>
