@@ -1,3 +1,20 @@
+{
+	"name": "sample",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node server.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.18.2"
+	}
+}
+
 const express = require('express');
 const http = require('http');
 const socketIO = require('socket.io');
