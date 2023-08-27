@@ -1,0 +1,12 @@
+{
+    "build": {
+      "publish": {
+        "dockerfile": "./Dockerfile"
+      },
+      "command": "npm install && npm run build"
+    },
+    "static": {
+      "public": "public"
+    }
+  }
+  
